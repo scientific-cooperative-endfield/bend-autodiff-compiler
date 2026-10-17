@@ -1,0 +1,837 @@
+{
+  "width": 1600,
+  "height": 1820,
+  "texts": [
+    {
+      "text": "BEND–AUTODIFF–COMPILER",
+      "box": [
+        64,
+        50,
+        691,
+        80
+      ],
+      "fg": "#2C2C2B",
+      "bg": "#FFFFFF",
+      "size": 44
+    },
+    {
+      "text": "Verified polynomial core Nat[x]  /  Bend 2.0.37  /  October 17, 2026",
+      "box": [
+        64,
+        104,
+        711,
+        125
+      ],
+      "fg": "#575651",
+      "bg": "#FFFFFF",
+      "size": 22
+    },
+    {
+      "text": "31 / 31",
+      "box": [
+        84,
+        169,
+        194,
+        196
+      ],
+      "fg": "#246544",
+      "bg": "#E8F1EC",
+      "size": 36
+    },
+    {
+      "text": "Laws: Bend + independent BendTT kernel",
+      "box": [
+        84,
+        219,
+        402,
+        235
+      ],
+      "fg": "#246544",
+      "bg": "#E8F1EC",
+      "size": 17
+    },
+    {
+      "text": "500 / 500",
+      "box": [
+        580,
+        169,
+        730,
+        196
+      ],
+      "fg": "#246544",
+      "bg": "#E8F1EC",
+      "size": 36
+    },
+    {
+      "text": "Random formulas: SymPy + numerical gradient",
+      "box": [
+        580,
+        219,
+        937,
+        235
+      ],
+      "fg": "#246544",
+      "bg": "#E8F1EC",
+      "size": 17
+    },
+    {
+      "text": "0",
+      "box": [
+        1076,
+        170,
+        1096,
+        195
+      ],
+      "fg": "#246544",
+      "bg": "#E8F1EC",
+      "size": 36
+    },
+    {
+      "text": "AutoDiff and stack VM mismatches",
+      "box": [
+        1076,
+        219,
+        1339,
+        231
+      ],
+      "fg": "#246544",
+      "bg": "#E8F1EC",
+      "size": 17
+    },
+    {
+      "text": "01  /  AST: eliminating identity elements",
+      "box": [
+        64,
+        281,
+        587,
+        307
+      ],
+      "fg": "#2C2C2B",
+      "bg": "#FFFFFF",
+      "size": 28
+    },
+    {
+      "text": "Before optimization: 7 nodes",
+      "box": [
+        88,
+        340,
+        404,
+        362
+      ],
+      "fg": "#2C2C2B",
+      "bg": "#FFFFFF",
+      "size": 23
+    },
+    {
+      "text": "After optimization: 3 nodes",
+      "box": [
+        840,
+        340,
+        1136,
+        362
+      ],
+      "fg": "#2C2C2B",
+      "bg": "#FFFFFF",
+      "size": 23
+    },
+    {
+      "text": "+",
+      "box": [
+        416.9921875,
+        404,
+        430.9921875,
+        418
+      ],
+      "fg": "#2C2C2B",
+      "bg": "#F0F5FA",
+      "size": 24
+    },
+    {
+      "text": "×",
+      "box": [
+        335.9921875,
+        485,
+        349.9921875,
+        500
+      ],
+      "fg": "#2C2C2B",
+      "bg": "#F0F5FA",
+      "size": 24
+    },
+    {
+      "text": "×",
+      "box": [
+        254.9921875,
+        567,
+        268.9921875,
+        582
+      ],
+      "fg": "#2C2C2B",
+      "bg": "#F0F5FA",
+      "size": 24
+    },
+    {
+      "text": "x",
+      "box": [
+        174.328125,
+        651,
+        188.328125,
+        664
+      ],
+      "fg": "#2C2C2B",
+      "bg": "#F0F5FA",
+      "size": 24
+    },
+    {
+      "text": "x",
+      "box": [
+        336.328125,
+        651,
+        350.328125,
+        664
+      ],
+      "fg": "#2C2C2B",
+      "bg": "#F0F5FA",
+      "size": 24
+    },
+    {
+      "text": "1",
+      "box": [
+        498.328125,
+        565,
+        511.328125,
+        582
+      ],
+      "fg": "#2C2C2B",
+      "bg": "#F0F5FA",
+      "size": 24
+    },
+    {
+      "text": "0",
+      "box": [
+        660.328125,
+        483,
+        673.328125,
+        500
+      ],
+      "fg": "#2C2C2B",
+      "bg": "#F0F5FA",
+      "size": 24
+    },
+    {
+      "text": "×",
+      "box": [
+        1168.9921875,
+        403,
+        1182.9921875,
+        418
+      ],
+      "fg": "#2C2C2B",
+      "bg": "#F0F5FA",
+      "size": 24
+    },
+    {
+      "text": "x",
+      "box": [
+        1031.328125,
+        487,
+        1045.328125,
+        500
+      ],
+      "fg": "#2C2C2B",
+      "bg": "#F0F5FA",
+      "size": 24
+    },
+    {
+      "text": "x",
+      "box": [
+        1307.328125,
+        487,
+        1321.328125,
+        500
+      ],
+      "fg": "#2C2C2B",
+      "bg": "#F0F5FA",
+      "size": 24
+    },
+    {
+      "text": "02  /  All laws accepted: ALL PROOFS CHECK",
+      "box": [
+        64,
+        1266,
+        670,
+        1292
+      ],
+      "fg": "#2C2C2B",
+      "bg": "#FFFFFF",
+      "size": 28
+    },
+    {
+      "text": "Structural induction; arbitrary expressions, Nat inputs, and stack tails",
+      "box": [
+        64,
+        1309,
+        701,
+        1328
+      ],
+      "fg": "#575651",
+      "bg": "#FFFFFF",
+      "size": 21
+    },
+    {
+      "text": "OK  add_zero_l",
+      "box": [
+        80,
+        1354,
+        212,
+        1373
+      ],
+      "fg": "#246544",
+      "bg": "#FFFFFF",
+      "size": 19
+    },
+    {
+      "text": "OK  add_zero_r",
+      "box": [
+        80,
+        1384,
+        215,
+        1403
+      ],
+      "fg": "#246544",
+      "bg": "#FFFFFF",
+      "size": 19
+    },
+    {
+      "text": "OK  add_succ",
+      "box": [
+        80,
+        1414,
+        199,
+        1433
+      ],
+      "fg": "#246544",
+      "bg": "#FFFFFF",
+      "size": 19
+    },
+    {
+      "text": "OK  add_comm",
+      "box": [
+        80,
+        1444,
+        212,
+        1463
+      ],
+      "fg": "#246544",
+      "bg": "#FFFFFF",
+      "size": 19
+    },
+    {
+      "text": "OK  add_assoc",
+      "box": [
+        80,
+        1474,
+        210,
+        1493
+      ],
+      "fg": "#246544",
+      "bg": "#FFFFFF",
+      "size": 19
+    },
+    {
+      "text": "OK  add_swap",
+      "box": [
+        80,
+        1504,
+        205,
+        1523
+      ],
+      "fg": "#246544",
+      "bg": "#FFFFFF",
+      "size": 19
+    },
+    {
+      "text": "OK  mul_zero_l",
+      "box": [
+        80,
+        1534,
+        211,
+        1553
+      ],
+      "fg": "#246544",
+      "bg": "#FFFFFF",
+      "size": 19
+    },
+    {
+      "text": "OK  mul_zero_r",
+      "box": [
+        80,
+        1564,
+        214,
+        1583
+      ],
+      "fg": "#246544",
+      "bg": "#FFFFFF",
+      "size": 19
+    },
+    {
+      "text": "OK  mul_one_l",
+      "box": [
+        80,
+        1594,
+        206,
+        1613
+      ],
+      "fg": "#246544",
+      "bg": "#FFFFFF",
+      "size": 19
+    },
+    {
+      "text": "OK  mul_one_r",
+      "box": [
+        80,
+        1624,
+        208,
+        1643
+      ],
+      "fg": "#246544",
+      "bg": "#FFFFFF",
+      "size": 19
+    },
+    {
+      "text": "OK  mul_succ_r",
+      "box": [
+        80,
+        1654,
+        216,
+        1673
+      ],
+      "fg": "#246544",
+      "bg": "#FFFFFF",
+      "size": 19
+    },
+    {
+      "text": "OK  mul_comm",
+      "box": [
+        568,
+        1354,
+        699,
+        1373
+      ],
+      "fg": "#246544",
+      "bg": "#FFFFFF",
+      "size": 19
+    },
+    {
+      "text": "OK  mul_add_l",
+      "box": [
+        568,
+        1384,
+        694,
+        1403
+      ],
+      "fg": "#246544",
+      "bg": "#FFFFFF",
+      "size": 19
+    },
+    {
+      "text": "OK  mul_add_r",
+      "box": [
+        568,
+        1414,
+        696,
+        1433
+      ],
+      "fg": "#246544",
+      "bg": "#FFFFFF",
+      "size": 19
+    },
+    {
+      "text": "OK  mul_assoc",
+      "box": [
+        568,
+        1444,
+        697,
+        1463
+      ],
+      "fg": "#246544",
+      "bg": "#FFFFFF",
+      "size": 19
+    },
+    {
+      "text": "OK  smart_add_sound",
+      "box": [
+        568,
+        1474,
+        758,
+        1493
+      ],
+      "fg": "#246544",
+      "bg": "#FFFFFF",
+      "size": 19
+    },
+    {
+      "text": "OK  smart_mul_sound",
+      "box": [
+        568,
+        1504,
+        757,
+        1523
+      ],
+      "fg": "#246544",
+      "bg": "#FFFFFF",
+      "size": 19
+    },
+    {
+      "text": "OK  optimize_sound",
+      "box": [
+        568,
+        1534,
+        739,
+        1553
+      ],
+      "fg": "#246544",
+      "bg": "#FFFFFF",
+      "size": 19
+    },
+    {
+      "text": "OK  diff_const",
+      "box": [
+        568,
+        1564,
+        688,
+        1583
+      ],
+      "fg": "#246544",
+      "bg": "#FFFFFF",
+      "size": 19
+    },
+    {
+      "text": "OK  diff_var",
+      "box": [
+        568,
+        1594,
+        669,
+        1613
+      ],
+      "fg": "#246544",
+      "bg": "#FFFFFF",
+      "size": 19
+    },
+    {
+      "text": "OK  diff_add",
+      "box": [
+        568,
+        1624,
+        673,
+        1643
+      ],
+      "fg": "#246544",
+      "bg": "#FFFFFF",
+      "size": 19
+    },
+    {
+      "text": "OK  diff_mul",
+      "box": [
+        568,
+        1654,
+        672,
+        1673
+      ],
+      "fg": "#246544",
+      "bg": "#FFFFFF",
+      "size": 19
+    },
+    {
+      "text": "OK  diff_correct",
+      "box": [
+        1056,
+        1354,
+        1188,
+        1373
+      ],
+      "fg": "#246544",
+      "bg": "#FFFFFF",
+      "size": 19
+    },
+    {
+      "text": "OK  diff_optimize_sound",
+      "box": [
+        1056,
+        1384,
+        1263,
+        1403
+      ],
+      "fg": "#246544",
+      "bg": "#FFFFFF",
+      "size": 19
+    },
+    {
+      "text": "OK  smart_add_stable",
+      "box": [
+        1056,
+        1414,
+        1245,
+        1433
+      ],
+      "fg": "#246544",
+      "bg": "#FFFFFF",
+      "size": 19
+    },
+    {
+      "text": "OK  smart_mul_stable",
+      "box": [
+        1056,
+        1444,
+        1244,
+        1463
+      ],
+      "fg": "#246544",
+      "bg": "#FFFFFF",
+      "size": 19
+    },
+    {
+      "text": "OK  optimize_idempotent",
+      "box": [
+        1056,
+        1474,
+        1270,
+        1493
+      ],
+      "fg": "#246544",
+      "bg": "#FFFFFF",
+      "size": 19
+    },
+    {
+      "text": "OK  vm_append",
+      "box": [
+        1056,
+        1504,
+        1193,
+        1523
+      ],
+      "fg": "#246544",
+      "bg": "#FFFFFF",
+      "size": 19
+    },
+    {
+      "text": "OK  compile_sound",
+      "box": [
+        1056,
+        1534,
+        1222,
+        1553
+      ],
+      "fg": "#246544",
+      "bg": "#FFFFFF",
+      "size": 19
+    },
+    {
+      "text": "OK  optimized_compile_sound",
+      "box": [
+        1056,
+        1564,
+        1314,
+        1583
+      ],
+      "fg": "#246544",
+      "bg": "#FFFFFF",
+      "size": 19
+    },
+    {
+      "text": "OK  gradient_compile_sound",
+      "box": [
+        1056,
+        1594,
+        1301,
+        1613
+      ],
+      "fg": "#246544",
+      "bg": "#FFFFFF",
+      "size": 19
+    },
+    {
+      "text": "Benchmark: depth 18 · 655,359 → 262,143 derivative nodes · reduction 60.0%",
+      "box": [
+        64,
+        1714,
+        905,
+        1736
+      ],
+      "fg": "#2C2C2B",
+      "bg": "#FFFFFF",
+      "size": 23
+    },
+    {
+      "text": "Proof boundary: Expr → stack VM. This project does not verify the C backend or Clang.",
+      "box": [
+        64,
+        1757,
+        876,
+        1776
+      ],
+      "fg": "#575651",
+      "bg": "#FFFFFF",
+      "size": 21
+    }
+  ],
+  "edges": [
+    {
+      "a": [
+        424.0,
+        432
+      ],
+      "b": [
+        343.0,
+        470
+      ],
+      "color": "#566A7D"
+    },
+    {
+      "a": [
+        343.0,
+        514
+      ],
+      "b": [
+        262.0,
+        552
+      ],
+      "color": "#566A7D"
+    },
+    {
+      "a": [
+        262.0,
+        596
+      ],
+      "b": [
+        181.0,
+        634
+      ],
+      "color": "#566A7D"
+    },
+    {
+      "a": [
+        262.0,
+        596
+      ],
+      "b": [
+        343.0,
+        634
+      ],
+      "color": "#566A7D"
+    },
+    {
+      "a": [
+        343.0,
+        514
+      ],
+      "b": [
+        505.0,
+        552
+      ],
+      "color": "#566A7D"
+    },
+    {
+      "a": [
+        424.0,
+        432
+      ],
+      "b": [
+        667.0,
+        470
+      ],
+      "color": "#566A7D"
+    },
+    {
+      "a": [
+        1176.0,
+        432
+      ],
+      "b": [
+        1038.0,
+        470
+      ],
+      "color": "#566A7D"
+    },
+    {
+      "a": [
+        1176.0,
+        432
+      ],
+      "b": [
+        1314.0,
+        470
+      ],
+      "color": "#566A7D"
+    }
+  ],
+  "nodes": [
+    [
+      393.0,
+      388,
+      455.0,
+      432
+    ],
+    [
+      312.0,
+      470,
+      374.0,
+      514
+    ],
+    [
+      231.0,
+      552,
+      293.0,
+      596
+    ],
+    [
+      150.0,
+      634,
+      212.0,
+      678
+    ],
+    [
+      312.0,
+      634,
+      374.0,
+      678
+    ],
+    [
+      474.0,
+      552,
+      536.0,
+      596
+    ],
+    [
+      636.0,
+      470,
+      698.0,
+      514
+    ],
+    [
+      1145.0,
+      388,
+      1207.0,
+      432
+    ],
+    [
+      1007.0,
+      470,
+      1069.0,
+      514
+    ],
+    [
+      1283.0,
+      470,
+      1345.0,
+      514
+    ]
+  ],
+  "chart_region": [
+    80,
+    735,
+    1520,
+    1221
+  ],
+  "interactive_zones": []
+}

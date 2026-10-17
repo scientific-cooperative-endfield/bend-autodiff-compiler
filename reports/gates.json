@@ -1,0 +1,31 @@
+{
+  "phase1": {
+    "required_prover_exit": 0,
+    "arithmetic_laws": 15,
+    "status": "passed"
+  },
+  "phase2": {
+    "core_checked": true,
+    "concrete_tests": 12,
+    "status": "passed"
+  },
+  "phase3": {
+    "laws": 31,
+    "primary_exit": 0,
+    "bendtt_exit": 0,
+    "status": "passed",
+    "safe": "unsupported in 2.0.37; --verdict used successfully"
+  },
+  "phase4": {
+    "formulas": 500,
+    "mismatches": 0,
+    "benchmark_samples": 45,
+    "vision_pass": true,
+    "visual_mutations_detected": true,
+    "status": "requested experiments passed; native scope limitation documented"
+  },
+  "universal_source_laws": true,
+  "universal_native_semantic_preservation_proven": false,
+  "native_nat_max": 281474976710655,
+  "packaged_at_utc": "2026-10-17T07:29:31.752394+00:00"
+}

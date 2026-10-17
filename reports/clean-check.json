@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "timestamp_utc": "2026-10-17T07:29:31.618182+00:00",
+  "method": "Copy exactly the unignored repository files, without bin/ or logs/, then run ./run_checks.sh and scripts/readiness.py. README-only clarity fixes applied afterwards.",
+  "prebuilt_binaries_present_at_start": false,
+  "laws": 31,
+  "formulas": 500,
+  "mismatches": 0,
+  "license": "MIT for original project materials; upstream Bend runtime remains Apache-2.0",
+  "github_hosted_ci_run": false,
+  "source_hashes": {
+    "LAWS.bend": "6a6c979043d1e88b63067cff8312958c4bca12efc11cd9a3ab691c9485e98c24",
+    "PROOF.bend": "d5aedc6dd5fbea644e17d8ae772bcb6c23943997bb4491482bbfd7aa8b5c56ba",
+    "compiler.bend": "6353672c53421708d2450ac31cce3abcddb7c7839979c93434828178a011c8e5",
+    "PROOF.bendtt": "49cd33102ef072fe843ba9fbf2cac9542f54f68bf8be96493786764df88e7485",
+    "oracle.bend": "cc7d5420d9658292569627dcfe3de35f4a958387474abd9bfdef2407437e7c0c",
+    "bench.bend": "aaaceb5f07b15d339e33dd8849f4c4900dc5e31881e3e22438aee6ba6d23bb07",
+    "tests.bend": "0e2c6de536f10bf278079a5aaa05b9970ee0551efa0baed8505a11f5d1dccf3e"
+  }
+}

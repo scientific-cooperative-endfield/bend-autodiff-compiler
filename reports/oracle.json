@@ -1,0 +1,70 @@
+{
+  "seed": 20261017,
+  "formulas": 500,
+  "unique_formulas": 500,
+  "mismatches": 0,
+  "symbolic_derivative_checks": 500,
+  "symbolic_optimizer_checks": 500,
+  "bend_and_vm_numeric_checks": 2000,
+  "central_difference_checks": 500,
+  "central_difference_h": "1e-20",
+  "relative_tolerance": "1e-30",
+  "worst_relative_error": 1.3e-38,
+  "invalid_inputs": [
+    {
+      "postfix": "",
+      "input": "0",
+      "exit_code": 2,
+      "rejected": true
+    },
+    {
+      "postfix": "+",
+      "input": "0",
+      "exit_code": 2,
+      "rejected": true
+    },
+    {
+      "postfix": "x+",
+      "input": "0",
+      "exit_code": 2,
+      "rejected": true
+    },
+    {
+      "postfix": "xx",
+      "input": "0",
+      "exit_code": 2,
+      "rejected": true
+    },
+    {
+      "postfix": "z",
+      "input": "0",
+      "exit_code": 2,
+      "rejected": true
+    },
+    {
+      "postfix": "x",
+      "input": "-1",
+      "exit_code": 2,
+      "rejected": true
+    },
+    {
+      "postfix": "x",
+      "input": "abc",
+      "exit_code": 2,
+      "rejected": true
+    }
+  ],
+  "derivative_mutation_detected": true,
+  "node_range": [
+    15,
+    111
+  ],
+  "degree_range": [
+    -1,
+    8
+  ],
+  "elapsed_seconds": 2.903360376000137,
+  "sympy_version": "1.14.0",
+  "python": "3.13.14 (main, Jul 15 2026, 00:00:00) [GCC 11.5.0 20240719 (Red Hat 11.5.0-5)]",
+  "platform": "Linux-6.18.49-x86_64-with-glibc2.34"
+}

@@ -1,0 +1,44 @@
+{
+  "native_nat_max": 281474976710655,
+  "source": "bin/oracle.c: NAT_IMM, nat_chk, nat_mul",
+  "universal_native_preservation_proven": false,
+  "source_theorems_unchanged": true,
+  "cases": [
+    {
+      "label": "largest_input",
+      "postfix": "x",
+      "x": "281474976710655",
+      "expected_exit": 0,
+      "exit_code": 0,
+      "stdout": "{\"value\":281474976710655,\"gradient\":1,\"vm_value\":281474976710655,\"vm_gradient\":1,\"derivative\":{\"c\":1},\"optimized\":{\"x\":true}}",
+      "stderr": ""
+    },
+    {
+      "label": "multiplication_below_limit",
+      "postfix": "xx*",
+      "x": "16777215",
+      "expected_exit": 0,
+      "exit_code": 0,
+      "stdout": "{\"value\":281474943156225,\"gradient\":33554430,\"vm_value\":281474943156225,\"vm_gradient\":33554430,\"derivative\":{\"a\":[{\"x\":true},{\"x\":true}]},\"optimized\":{\"m\":[{\"x\":true},{\"x\":true}]}}",
+      "stderr": ""
+    },
+    {
+      "label": "multiplication_above_limit",
+      "postfix": "xx*",
+      "x": "16777216",
+      "expected_exit": 1,
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": "bend: a Nat past the largest immediate 2^48-1"
+    },
+    {
+      "label": "input_above_limit",
+      "postfix": "x",
+      "x": "281474976710656",
+      "expected_exit": 2,
+      "exit_code": 2,
+      "stdout": "",
+      "stderr": "invalid postfix formula or natural-number input"
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "clean": {
+    "pass": true,
+    "dimensions": [
+      1600,
+      1820
+    ],
+    "finite_demo_values": true,
+    "png_finite": true,
+    "rgb_range": [
+      0,
+      255
+    ],
+    "luminance_percentiles": [
+      0.0,
+      78.0,
+      255.0,
+      255.0,
+      255.0,
+      255.0,
+      255.0
+    ],
+    "canny_edge_pixels": 74375,
+    "minimum_text_contrast_ratio": 6.0346908181895484,
+    "audited_layout_text_elements": 56,
+    "missing_text": [],
+    "overlapping_layout_text_pairs": [],
+    "ast_edges_checked": 8,
+    "minimum_ast_edge_coverage": 1.0,
+    "broken_ast_edges": [],
+    "unexpected_nearblack_components": [],
+    "issues": [],
+    "interactive_zones": "not applicable: static PNG",
+    "scope": [
+      "Checks 56 authored layout text boxes; chart readability/layout separately checked by canonical browser verifier.",
+      "PNG pixel finiteness cannot establish absence of upstream NaN/Inf; scalar demo data checked separately.",
+      "Canny is descriptive; targeted continuity checks only concern the eight known AST edges."
+    ]
+  },
+  "mutations": {
+    "black_hole": {
+      "pass": false,
+      "dimensions": [
+        1600,
+        1820
+      ],
+      "finite_demo_values": true,
+      "png_finite": true,
+      "rgb_range": [
+        0,
+        255
+      ],
+      "luminance_percentiles": [
+        0.0,
+        78.0,
+        255.0,
+        255.0,
+        255.0,
+        255.0,
+        255.0
+      ],
+      "canny_edge_pixels": 74535,
+      "minimum_text_contrast_ratio": 6.0346908181895484,
+      "audited_layout_text_elements": 56,
+      "missing_text": [],
+      "overlapping_layout_text_pairs": [],
+      "ast_edges_checked": 8,
+      "minimum_ast_edge_coverage": 1.0,
+      "broken_ast_edges": [],
+      "unexpected_nearblack_components": [
+        {
+          "box": [
+            1470,
+            650,
+            1511,
+            691
+          ],
+          "area": 1681
+        }
+      ],
+      "issues": [
+        {
+          "type": "black_hole",
+          "box": [
+            1470.0,
+            650.0,
+            1511.0,
+            691.0
+          ]
+        }
+      ],
+      "interactive_zones": "not applicable: static PNG",
+      "scope": [
+        "Checks 56 authored layout text boxes; chart readability/layout separately checked by canonical browser verifier.",
+        "PNG pixel finiteness cannot establish absence of upstream NaN/Inf; scalar demo data checked separately.",
+        "Canny is descriptive; targeted continuity checks only concern the eight known AST edges."
+      ]
+    },
+    "edge_gap": {
+      "pass": false,
+      "dimensions": [
+        1600,
+        1820
+      ],
+      "finite_demo_values": true,
+      "png_finite": true,
+      "rgb_range": [
+        0,
+        255
+      ],
+      "luminance_percentiles": [
+        0.0,
+        78.0,
+        255.0,
+        255.0,
+        255.0,
+        255.0,
+        255.0
+      ],
+      "canny_edge_pixels": 74321,
+      "minimum_text_contrast_ratio": 6.0346908181895484,
+      "audited_layout_text_elements": 56,
+      "missing_text": [],
+      "overlapping_layout_text_pairs": [],
+      "ast_edges_checked": 8,
+      "minimum_ast_edge_coverage": 0.7058823529411765,
+      "broken_ast_edges": [
+        0
+      ],
+      "unexpected_nearblack_components": [],
+      "issues": [
+        {
+          "type": "broken_ast_edge",
+          "box": [
+            343.0,
+            432.0,
+            424.0,
+            470.0
+          ]
+        }
+      ],
+      "interactive_zones": "not applicable: static PNG",
+      "scope": [
+        "Checks 56 authored layout text boxes; chart readability/layout separately checked by canonical browser verifier.",
+        "PNG pixel finiteness cannot establish absence of upstream NaN/Inf; scalar demo data checked separately.",
+        "Canny is descriptive; targeted continuity checks only concern the eight known AST edges."
+      ]
+    },
+    "erased_status": {
+      "pass": false,
+      "dimensions": [
+        1600,
+        1820
+      ],
+      "finite_demo_values": true,
+      "png_finite": true,
+      "rgb_range": [
+        0,
+        255
+      ],
+      "luminance_percentiles": [
+        0.0,
+        78.0,
+        255.0,
+        255.0,
+        255.0,
+        255.0,
+        255.0
+      ],
+      "canny_edge_pixels": 73612,
+      "minimum_text_contrast_ratio": 6.0346908181895484,
+      "audited_layout_text_elements": 56,
+      "missing_text": [
+        "OK  optimize_sound"
+      ],
+      "overlapping_layout_text_pairs": [],
+      "ast_edges_checked": 8,
+      "minimum_ast_edge_coverage": 1.0,
+      "broken_ast_edges": [],
+      "unexpected_nearblack_components": [],
+      "issues": [
+        {
+          "type": "missing_text",
+          "box": [
+            568.0,
+            1534.0,
+            739.0,
+            1553.0
+          ]
+        }
+      ],
+      "interactive_zones": "not applicable: static PNG",
+      "scope": [
+        "Checks 56 authored layout text boxes; chart readability/layout separately checked by canonical browser verifier.",
+        "PNG pixel finiteness cannot establish absence of upstream NaN/Inf; scalar demo data checked separately.",
+        "Canny is descriptive; targeted continuity checks only concern the eight known AST edges."
+      ]
+    }
+  },
+  "negative_controls_detected": true,
+  "pass": true,
+  "dashboard_sha256": "fe7c79947252a9a754f26741cee6e1a401d3f68a62155a9e41b90a3a042939fc",
+  "layout_sha256": "7b92805da5eb1c0342aba1cf35f924c655af6d859132668755824d9a21ca59d4"
+}

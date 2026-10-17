@@ -1,0 +1,61 @@
+{
+  "timestamp_utc": "2026-10-17T07:28:48.383750+00:00",
+  "laws": 31,
+  "checks": [
+    {
+      "command": [
+        "bend",
+        "PROOF.bend"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "pass": true
+    },
+    {
+      "command": [
+        "bend",
+        "PROOF.bend",
+        "--verdict"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "pass": true
+    },
+    {
+      "command": [
+        "bend",
+        "tests.bend"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "pass": true
+    },
+    {
+      "command": [
+        "bend",
+        "negative/PROOF.bend",
+        "--verdict"
+      ],
+      "exit_code": 1,
+      "expected_exit": 1,
+      "pass": true
+    }
+  ],
+  "versions": {
+    "bend": "bend 2.0.37",
+    "lean": "Lean (version 4.34.0, x86_64-unknown-linux-gnu, commit 293d5d0c0c3f3dded4688b3ccd6a33939ac5102b, Release)",
+    "clang": "clang version 15.0.7 (AWS 15.0.7-3.amzn2023.0.4)\nTarget: x86_64-amazon-linux-gnu\nThread model: posix\nInstalledDir: /usr/bin"
+  },
+  "sha256": {
+    "LAWS.bend": "6a6c979043d1e88b63067cff8312958c4bca12efc11cd9a3ab691c9485e98c24",
+    "PROOF.bend": "d5aedc6dd5fbea644e17d8ae772bcb6c23943997bb4491482bbfd7aa8b5c56ba",
+    "compiler.bend": "6353672c53421708d2450ac31cce3abcddb7c7839979c93434828178a011c8e5",
+    "PROOF.bendtt": "49cd33102ef072fe843ba9fbf2cac9542f54f68bf8be96493786764df88e7485",
+    "oracle.bend": "cc7d5420d9658292569627dcfe3de35f4a958387474abd9bfdef2407437e7c0c",
+    "bench.bend": "aaaceb5f07b15d339e33dd8849f4c4900dc5e31881e3e22438aee6ba6d23bb07",
+    "tests.bend": "0e2c6de536f10bf278079a5aaa05b9970ee0551efa0baed8505a11f5d1dccf3e"
+  },
+  "all_laws_implemented": true,
+  "placeholders_or_unsafe": false,
+  "scope": "Source-level Nat polynomial evaluator, differentiator vs formal tangent interpretation, simplifier, compiler and total VM; no claim that Bend C backend/Clang are formally verified."
+}

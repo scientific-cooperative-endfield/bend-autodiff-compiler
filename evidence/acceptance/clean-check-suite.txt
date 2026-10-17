@@ -1,0 +1,364 @@
+{
+  "laws": 31,
+  "checks": [
+    {
+      "command": [
+        "bend",
+        "PROOF.bend"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "pass": true
+    },
+    {
+      "command": [
+        "bend",
+        "PROOF.bend",
+        "--verdict"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "pass": true
+    },
+    {
+      "command": [
+        "bend",
+        "tests.bend"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "pass": true
+    },
+    {
+      "command": [
+        "bend",
+        "negative/PROOF.bend",
+        "--verdict"
+      ],
+      "exit_code": 1,
+      "expected_exit": 1,
+      "pass": true
+    }
+  ],
+  "versions": {
+    "bend": "bend 2.0.37",
+    "lean": "Lean (version 4.34.0, x86_64-unknown-linux-gnu, commit 293d5d0c0c3f3dded4688b3ccd6a33939ac5102b, Release)",
+    "clang": "clang version 15.0.7 (AWS 15.0.7-3.amzn2023.0.4)\nTarget: x86_64-amazon-linux-gnu\nThread model: posix\nInstalledDir: /usr/bin"
+  }
+}
+{
+  "seed": 20261017,
+  "formulas": 500,
+  "unique_formulas": 500,
+  "mismatches": 0,
+  "symbolic_derivative_checks": 500,
+  "symbolic_optimizer_checks": 500,
+  "bend_and_vm_numeric_checks": 2000,
+  "central_difference_checks": 500,
+  "central_difference_h": "1e-20",
+  "relative_tolerance": "1e-30",
+  "worst_relative_error": 1.3e-38,
+  "invalid_inputs": [
+    {
+      "postfix": "",
+      "input": "0",
+      "exit_code": 2,
+      "rejected": true
+    },
+    {
+      "postfix": "+",
+      "input": "0",
+      "exit_code": 2,
+      "rejected": true
+    },
+    {
+      "postfix": "x+",
+      "input": "0",
+      "exit_code": 2,
+      "rejected": true
+    },
+    {
+      "postfix": "xx",
+      "input": "0",
+      "exit_code": 2,
+      "rejected": true
+    },
+    {
+      "postfix": "z",
+      "input": "0",
+      "exit_code": 2,
+      "rejected": true
+    },
+    {
+      "postfix": "x",
+      "input": "-1",
+      "exit_code": 2,
+      "rejected": true
+    },
+    {
+      "postfix": "x",
+      "input": "abc",
+      "exit_code": 2,
+      "rejected": true
+    }
+  ],
+  "derivative_mutation_detected": true,
+  "node_range": [
+    15,
+    111
+  ],
+  "degree_range": [
+    -1,
+    8
+  ],
+  "elapsed_seconds": 3.380599666999842,
+  "sympy_version": "1.14.0",
+  "python": "3.13.14 (main, Jul 15 2026, 00:00:00) [GCC 11.5.0 20240719 (Red Hat 11.5.0-5)]",
+  "platform": "Linux-6.18.49-x86_64-with-glibc2.34"
+}
+{
+  "workload": "balanced sum of leaves (x*x + 0), constructed independently in each branch",
+  "timer_unit": "integer milliseconds, IO.now; tree generation and counting excluded from stage timings",
+  "repetitions": 5,
+  "warmups_per_configuration": 1,
+  "samples": 45,
+  "logical_cpus": 2,
+  "affinity_cpus": 2,
+  "cgroup_cpu_max": "max 100000",
+  "platform": "Linux-6.18.49-x86_64-with-glibc2.34",
+  "summary": [
+    {
+      "depth": 14,
+      "actual_ast_depth": 16,
+      "threads": 1,
+      "repetitions": 5,
+      "ast_nodes": 98303,
+      "diff_nodes": 163839,
+      "optimized_nodes": 65535,
+      "compression_ratio": 2.500022888532845,
+      "node_reduction_percent": 60.00036621317268,
+      "median_diff_ms": 2,
+      "median_optimize_ms": 2,
+      "median_pipeline_ms": 4,
+      "min_pipeline_ms": 3,
+      "max_pipeline_ms": 4,
+      "speedup_vs_1_thread": 1.0,
+      "median_cpu_over_wall": 0.9749987612175202
+    },
+    {
+      "depth": 14,
+      "actual_ast_depth": 16,
+      "threads": 2,
+      "repetitions": 5,
+      "ast_nodes": 98303,
+      "diff_nodes": 163839,
+      "optimized_nodes": 65535,
+      "compression_ratio": 2.500022888532845,
+      "node_reduction_percent": 60.00036621317268,
+      "median_diff_ms": 1,
+      "median_optimize_ms": 1,
+      "median_pipeline_ms": 2,
+      "min_pipeline_ms": 2,
+      "max_pipeline_ms": 2,
+      "speedup_vs_1_thread": 2.0,
+      "median_cpu_over_wall": 1.2099925071678037
+    },
+    {
+      "depth": 14,
+      "actual_ast_depth": 16,
+      "threads": 4,
+      "repetitions": 5,
+      "ast_nodes": 98303,
+      "diff_nodes": 163839,
+      "optimized_nodes": 65535,
+      "compression_ratio": 2.500022888532845,
+      "node_reduction_percent": 60.00036621317268,
+      "median_diff_ms": 1,
+      "median_optimize_ms": 1,
+      "median_pipeline_ms": 2,
+      "min_pipeline_ms": 2,
+      "max_pipeline_ms": 3,
+      "speedup_vs_1_thread": 2.0,
+      "median_cpu_over_wall": 1.2606777207155917
+    },
+    {
+      "depth": 15,
+      "actual_ast_depth": 17,
+      "threads": 1,
+      "repetitions": 5,
+      "ast_nodes": 196607,
+      "diff_nodes": 327679,
+      "optimized_nodes": 131071,
+      "compression_ratio": 2.5000114441791093,
+      "node_reduction_percent": 60.00018310602755,
+      "median_diff_ms": 4,
+      "median_optimize_ms": 4,
+      "median_pipeline_ms": 8,
+      "min_pipeline_ms": 7,
+      "max_pipeline_ms": 8,
+      "speedup_vs_1_thread": 1.0,
+      "median_cpu_over_wall": 0.9867638651188545
+    },
+    {
+      "depth": 15,
+      "actual_ast_depth": 17,
+      "threads": 2,
+      "repetitions": 5,
+      "ast_nodes": 196607,
+      "diff_nodes": 327679,
+      "optimized_nodes": 131071,
+      "compression_ratio": 2.5000114441791093,
+      "node_reduction_percent": 60.00018310602755,
+      "median_diff_ms": 2,
+      "median_optimize_ms": 2,
+      "median_pipeline_ms": 4,
+      "min_pipeline_ms": 3,
+      "max_pipeline_ms": 4,
+      "speedup_vs_1_thread": 2.0,
+      "median_cpu_over_wall": 1.2371247213748247
+    },
+    {
+      "depth": 15,
+      "actual_ast_depth": 17,
+      "threads": 4,
+      "repetitions": 5,
+      "ast_nodes": 196607,
+      "diff_nodes": 327679,
+      "optimized_nodes": 131071,
+      "compression_ratio": 2.5000114441791093,
+      "node_reduction_percent": 60.00018310602755,
+      "median_diff_ms": 2,
+      "median_optimize_ms": 2,
+      "median_pipeline_ms": 4,
+      "min_pipeline_ms": 4,
+      "max_pipeline_ms": 5,
+      "speedup_vs_1_thread": 2.0,
+      "median_cpu_over_wall": 1.2386867359068583
+    },
+    {
+      "depth": 16,
+      "actual_ast_depth": 18,
+      "threads": 1,
+      "repetitions": 5,
+      "ast_nodes": 393215,
+      "diff_nodes": 655359,
+      "optimized_nodes": 262143,
+      "compression_ratio": 2.5000057220677263,
+      "node_reduction_percent": 60.00009155287407,
+      "median_diff_ms": 8,
+      "median_optimize_ms": 9,
+      "median_pipeline_ms": 16,
+      "min_pipeline_ms": 16,
+      "max_pipeline_ms": 17,
+      "speedup_vs_1_thread": 1.0,
+      "median_cpu_over_wall": 0.993861884324809
+    },
+    {
+      "depth": 16,
+      "actual_ast_depth": 18,
+      "threads": 2,
+      "repetitions": 5,
+      "ast_nodes": 393215,
+      "diff_nodes": 655359,
+      "optimized_nodes": 262143,
+      "compression_ratio": 2.5000057220677263,
+      "node_reduction_percent": 60.00009155287407,
+      "median_diff_ms": 4,
+      "median_optimize_ms": 4,
+      "median_pipeline_ms": 8,
+      "min_pipeline_ms": 8,
+      "max_pipeline_ms": 10,
+      "speedup_vs_1_thread": 2.0,
+      "median_cpu_over_wall": 1.245137693080131
+    },
+    {
+      "depth": 16,
+      "actual_ast_depth": 18,
+      "threads": 4,
+      "repetitions": 5,
+      "ast_nodes": 393215,
+      "diff_nodes": 655359,
+      "optimized_nodes": 262143,
+      "compression_ratio": 2.5000057220677263,
+      "node_reduction_percent": 60.00009155287407,
+      "median_diff_ms": 4,
+      "median_optimize_ms": 5,
+      "median_pipeline_ms": 9,
+      "min_pipeline_ms": 8,
+      "max_pipeline_ms": 9,
+      "speedup_vs_1_thread": 1.7777777777777777,
+      "median_cpu_over_wall": 1.238692036057479
+    }
+  ],
+  "limitations": [
+    "Synthetic balanced workload only; not a general performance claim.",
+    "CPU/wall includes whole process and is not a scheduler trace.",
+    "Source-to-VM theorem does not verify Bend native code generation or Clang.",
+    "No zero-allocation claim: symbolic differentiation constructs new trees."
+  ]
+}
+{
+  "native_nat_max": 281474976710655,
+  "source": "bin/oracle.c: NAT_IMM, nat_chk, nat_mul",
+  "universal_native_preservation_proven": false,
+  "source_theorems_unchanged": true,
+  "cases": [
+    {
+      "label": "largest_input",
+      "postfix": "x",
+      "x": "281474976710655",
+      "expected_exit": 0,
+      "exit_code": 0,
+      "stdout": "{\"value\":281474976710655,\"gradient\":1,\"vm_value\":281474976710655,\"vm_gradient\":1,\"derivative\":{\"c\":1},\"optimized\":{\"x\":true}}",
+      "stderr": ""
+    },
+    {
+      "label": "multiplication_below_limit",
+      "postfix": "xx*",
+      "x": "16777215",
+      "expected_exit": 0,
+      "exit_code": 0,
+      "stdout": "{\"value\":281474943156225,\"gradient\":33554430,\"vm_value\":281474943156225,\"vm_gradient\":33554430,\"derivative\":{\"a\":[{\"x\":true},{\"x\":true}]},\"optimized\":{\"m\":[{\"x\":true},{\"x\":true}]}}",
+      "stderr": ""
+    },
+    {
+      "label": "multiplication_above_limit",
+      "postfix": "xx*",
+      "x": "16777216",
+      "expected_exit": 1,
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": "bend: a Nat past the largest immediate 2^48-1"
+    },
+    {
+      "label": "input_above_limit",
+      "postfix": "x",
+      "x": "281474976710656",
+      "expected_exit": 2,
+      "exit_code": 2,
+      "stdout": "",
+      "stderr": "invalid postfix formula or natural-number input"
+    }
+  ]
+}
+{"theorems": 31, "formulas": 500, "demo_points": 13, "node_counts_verified": 45}
+{"dashboard": [1600, 1820], "text_boxes": 56, "ast_edges": 8}
+{
+  "pass": true,
+  "clean_pass": true,
+  "min_contrast": 6.0346908181895484,
+  "min_edge_coverage": 1.0,
+  "clean_issues": [],
+  "negative_controls_detected": true,
+  "mutation_issues": {
+    "black_hole": [
+      "black_hole"
+    ],
+    "edge_gap": [
+      "broken_ast_edge"
+    ],
+    "erased_status": [
+      "missing_text"
+    ]
+  }
+}

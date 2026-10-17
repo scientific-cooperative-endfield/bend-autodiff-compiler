@@ -1,0 +1,353 @@
+[
+  {
+    "x": 0,
+    "value": 0,
+    "gradient": 0,
+    "vm_value": 0,
+    "vm_gradient": 0,
+    "derivative": {
+      "a": [
+        {
+          "x": true
+        },
+        {
+          "x": true
+        }
+      ]
+    },
+    "optimized": {
+      "m": [
+        {
+          "x": true
+        },
+        {
+          "x": true
+        }
+      ]
+    }
+  },
+  {
+    "x": 1,
+    "value": 1,
+    "gradient": 2,
+    "vm_value": 1,
+    "vm_gradient": 2,
+    "derivative": {
+      "a": [
+        {
+          "x": true
+        },
+        {
+          "x": true
+        }
+      ]
+    },
+    "optimized": {
+      "m": [
+        {
+          "x": true
+        },
+        {
+          "x": true
+        }
+      ]
+    }
+  },
+  {
+    "x": 2,
+    "value": 4,
+    "gradient": 4,
+    "vm_value": 4,
+    "vm_gradient": 4,
+    "derivative": {
+      "a": [
+        {
+          "x": true
+        },
+        {
+          "x": true
+        }
+      ]
+    },
+    "optimized": {
+      "m": [
+        {
+          "x": true
+        },
+        {
+          "x": true
+        }
+      ]
+    }
+  },
+  {
+    "x": 3,
+    "value": 9,
+    "gradient": 6,
+    "vm_value": 9,
+    "vm_gradient": 6,
+    "derivative": {
+      "a": [
+        {
+          "x": true
+        },
+        {
+          "x": true
+        }
+      ]
+    },
+    "optimized": {
+      "m": [
+        {
+          "x": true
+        },
+        {
+          "x": true
+        }
+      ]
+    }
+  },
+  {
+    "x": 4,
+    "value": 16,
+    "gradient": 8,
+    "vm_value": 16,
+    "vm_gradient": 8,
+    "derivative": {
+      "a": [
+        {
+          "x": true
+        },
+        {
+          "x": true
+        }
+      ]
+    },
+    "optimized": {
+      "m": [
+        {
+          "x": true
+        },
+        {
+          "x": true
+        }
+      ]
+    }
+  },
+  {
+    "x": 5,
+    "value": 25,
+    "gradient": 10,
+    "vm_value": 25,
+    "vm_gradient": 10,
+    "derivative": {
+      "a": [
+        {
+          "x": true
+        },
+        {
+          "x": true
+        }
+      ]
+    },
+    "optimized": {
+      "m": [
+        {
+          "x": true
+        },
+        {
+          "x": true
+        }
+      ]
+    }
+  },
+  {
+    "x": 6,
+    "value": 36,
+    "gradient": 12,
+    "vm_value": 36,
+    "vm_gradient": 12,
+    "derivative": {
+      "a": [
+        {
+          "x": true
+        },
+        {
+          "x": true
+        }
+      ]
+    },
+    "optimized": {
+      "m": [
+        {
+          "x": true
+        },
+        {
+          "x": true
+        }
+      ]
+    }
+  },
+  {
+    "x": 7,
+    "value": 49,
+    "gradient": 14,
+    "vm_value": 49,
+    "vm_gradient": 14,
+    "derivative": {
+      "a": [
+        {
+          "x": true
+        },
+        {
+          "x": true
+        }
+      ]
+    },
+    "optimized": {
+      "m": [
+        {
+          "x": true
+        },
+        {
+          "x": true
+        }
+      ]
+    }
+  },
+  {
+    "x": 8,
+    "value": 64,
+    "gradient": 16,
+    "vm_value": 64,
+    "vm_gradient": 16,
+    "derivative": {
+      "a": [
+        {
+          "x": true
+        },
+        {
+          "x": true
+        }
+      ]
+    },
+    "optimized": {
+      "m": [
+        {
+          "x": true
+        },
+        {
+          "x": true
+        }
+      ]
+    }
+  },
+  {
+    "x": 9,
+    "value": 81,
+    "gradient": 18,
+    "vm_value": 81,
+    "vm_gradient": 18,
+    "derivative": {
+      "a": [
+        {
+          "x": true
+        },
+        {
+          "x": true
+        }
+      ]
+    },
+    "optimized": {
+      "m": [
+        {
+          "x": true
+        },
+        {
+          "x": true
+        }
+      ]
+    }
+  },
+  {
+    "x": 10,
+    "value": 100,
+    "gradient": 20,
+    "vm_value": 100,
+    "vm_gradient": 20,
+    "derivative": {
+      "a": [
+        {
+          "x": true
+        },
+        {
+          "x": true
+        }
+      ]
+    },
+    "optimized": {
+      "m": [
+        {
+          "x": true
+        },
+        {
+          "x": true
+        }
+      ]
+    }
+  },
+  {
+    "x": 11,
+    "value": 121,
+    "gradient": 22,
+    "vm_value": 121,
+    "vm_gradient": 22,
+    "derivative": {
+      "a": [
+        {
+          "x": true
+        },
+        {
+          "x": true
+        }
+      ]
+    },
+    "optimized": {
+      "m": [
+        {
+          "x": true
+        },
+        {
+          "x": true
+        }
+      ]
+    }
+  },
+  {
+    "x": 12,
+    "value": 144,
+    "gradient": 24,
+    "vm_value": 144,
+    "vm_gradient": 24,
+    "derivative": {
+      "a": [
+        {
+          "x": true
+        },
+        {
+          "x": true
+        }
+      ]
+    },
+    "optimized": {
+      "m": [
+        {
+          "x": true
+        },
+        {
+          "x": true
+        }
+      ]
+    }
+  }
+]

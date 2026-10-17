@@ -1,0 +1,20 @@
+## raw/benchmark.jsonl
+
+- Shape: 45 rows x 11 columns
+- Duplicate rows: 0
+- Candidate key columns (distinct == rows): wall_seconds, cpu_seconds
+
+| column | type | non-null | distinct | values |
+| --- | --- | --- | --- | --- |
+| depth | number | 100% | 3 | 14 → 16, mean 15 |
+| ast_nodes | number | 100% | 3 | 98,303 → 393,215, mean 229,375 |
+| diff_nodes | number | 100% | 3 | 163,839 → 655,359, mean 3.823e+05 |
+| optimized_nodes | number | 100% | 3 | 65,535 → 262,143, mean 1.529e+05 |
+| diff_ms | number | 100% | 8 | 0 → 8, mean 2.867 |
+| optimize_ms | number | 100% | 7 | 1 → 9, mean 2.822 |
+| threads | number | 100% | 3 | 1 → 4, mean 2.333 |
+| rep | number | 100% | 5 | 0 → 4, mean 2 |
+| actual_ast_depth | number | 100% | 3 | 16 → 18, mean 17 |
+| wall_seconds | number | 100% | 45 | 0.008351 → 0.0517, mean 0.02097 |
+| cpu_seconds | number | 100% | 45 | 0.009132 → 0.05218, mean 0.02408 |
+

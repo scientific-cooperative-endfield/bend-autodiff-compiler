@@ -1,0 +1,19 @@
+# Local environments and caches
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+# Build products; CI rebuilds native executables.
+/bin/
+# Host-specific installation and execution transcripts; selected evidence is
+# copied to evidence/acceptance/ by the release checker.
+/logs/
+/env.local.sh
+# Release bundles and temporary files
+*.zip
+*.tmp

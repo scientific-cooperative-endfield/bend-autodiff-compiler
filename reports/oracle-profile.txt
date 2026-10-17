@@ -1,0 +1,30 @@
+## raw/oracle.jsonl
+
+- Shape: 500 rows x 14 columns
+- Duplicate rows: 0
+- Candidate key columns (distinct == rows): id, postfix, ast
+
+| column | type | non-null | distinct | values |
+| --- | --- | --- | --- | --- |
+| id | number | 100% | 500 | 0 → 499, mean 249.5 |
+| postfix | text | 100% | 500 | top: xx+10**2x+1x*+*1xx**33*0*** (1), 2xxx*+xx+01**++1*03222*xx*++**+ (1), 333*+1x+3**33*x1*+31+21*++*x3+x0+*x0x+*+ (1), 12+x3*+xx+x0***x01*x*++x+ (1), xx+10**3*1*x2+2x+*3x*x2+**0+* (1) |
+| ast | text | 100% | 500 | top: {"a": [{"a": [{"a": [{"m": [{"x": true}, (7), {"a": [{"m": [{"a": [{"a": [{"x": true}, (6), {"a": [{"a": [{"a": [{"x": true}, {"a":  (6), {"a": [{"a": [{"m": [{"m": [{"x": true}, (6), {"a": [{"a": [{"m": [{"a": [{"a": [{"c": (5) |
+| nodes | number | 100% | 42 | 15 → 111, mean 34.39 |
+| degree | number | 100% | 10 | -1 → 8, mean 2.74 |
+| x | number | 100% | 4 | 0 → 3, mean 1.5 |
+| expected_value | number | 100% | 206 | 0 → 95,040, mean 1,349 |
+| expected_gradient | number | 100% | 231 | 0 → 160,704, mean 2,171 |
+| symbolic_ok | number | 100% | 1 | 1 → 1, mean 1 |
+| optimized_ok | number | 100% | 1 | 1 → 1, mean 1 |
+| exact_ok | number | 100% | 1 | 1 → 1, mean 1 |
+| numeric_ok | number | 100% | 1 | 1 → 1, mean 1 |
+| numeric_relative_error | number | 100% | 239 | 0 → 1.3e-38, mean 1.714e-40 |
+| result | text | 100% | 437 | top: {"derivative": {"c": 0}, "gradient": 0,  (66), {"derivative": {"a": [{"m": [{"a": [{"m" (59), {"derivative": {"a": [{"a": [{"m": [{"a" (41), {"derivative": {"a": [{"m": [{"a": [{"a" (35), {"derivative": {"a": [{"c": 1}, {"a": [{ (32) |
+
+**Warnings:**
+
+- ⚠️ `symbolic_ok` is constant
+- ⚠️ `optimized_ok` is constant
+- ⚠️ `exact_ok` is constant
+- ⚠️ `numeric_ok` is constant
+
